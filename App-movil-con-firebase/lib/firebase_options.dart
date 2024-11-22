@@ -44,9 +44,9 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyAoboxg-BNkUg9d0698DvvgDYLr2-02UVY',
     appId: '1:551327065763:web:da1adb1b6c6bd059538116',
     messagingSenderId: '551327065763',
-    projectId: 'prueba-9e75d',
-    authDomain: 'prueba-9e75d.firebaseapp.com',
-    storageBucket: 'prueba-9e75d.firebasestorage.app',
+    projectId: 'fire-base-21101',
+    authDomain: 'fire-base-21101.firebaseapp.com',
+    storageBucket: 'fire-base-21101.firebasestorage.app',
     measurementId: 'G-JZDZX1TG82',
   );
 
@@ -54,35 +54,35 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyD9XfJS5WMykgMQEVdyWFR5fvyJdccZm2Q',
     appId: '1:551327065763:android:a552758d2f0ce9a0538116',
     messagingSenderId: '551327065763',
-    projectId: 'prueba-9e75d',
-    storageBucket: 'prueba-9e75d.firebasestorage.app',
+    projectId: 'fire-base-21101',
+    storageBucket: 'fire-base-21101.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyC2B-LAjEK4bsRbvf09wrRhN1zRCLOp0qs',
     appId: '1:551327065763:ios:76c53834dfc02d2f538116',
     messagingSenderId: '551327065763',
-    projectId: 'prueba-9e75d',
-    storageBucket: 'prueba-9e75d.firebasestorage.app',
-    iosBundleId: 'com.prueba.firebase',
+    projectId: 'fire-base-21101',
+    storageBucket: 'fire-base-21101.firebasestorage.app',
+    iosBundleId: 'com.fire-base.firebase',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyC2B-LAjEK4bsRbvf09wrRhN1zRCLOp0qs',
     appId: '1:551327065763:ios:76c53834dfc02d2f538116',
     messagingSenderId: '551327065763',
-    projectId: 'prueba-9e75d',
-    storageBucket: 'prueba-9e75d.firebasestorage.app',
-    iosBundleId: 'com.prueba.firebase',
+    projectId: 'fire-base-21101',
+    storageBucket: 'fire-base-21101.firebasestorage.app',
+    iosBundleId: 'com.fire-base.firebase',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyAoboxg-BNkUg9d0698DvvgDYLr2-02UVY',
     appId: '1:551327065763:web:ee74f22000c8c7bf538116',
     messagingSenderId: '551327065763',
-    projectId: 'prueba-9e75d',
-    authDomain: 'prueba-9e75d.firebaseapp.com',
-    storageBucket: 'prueba-9e75d.firebasestorage.app',
+    projectId: 'fire-base-21101',
+    authDomain: 'fire-base-21101.firebaseapp.com',
+    storageBucket: 'fire-base-21101.firebasestorage.app',
     measurementId: 'G-ZP5MQYS5PV',
   );
 }

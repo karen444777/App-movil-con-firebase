@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:fuegobase/pages/add_usuario_page.dart';
+import 'package:fuegobase/pages/edit_usuario_page.dart';
+import 'package:fuegobase/pages/home_page.dart';
+// import 'package:fuegobase/services/firebase_services.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -18,14 +22,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const Home(),
+        '/add': (context) => const AddUsuario(),
+        '/edit' : (context) => const EditUsuario(),
+        },
     );
   }
 }
+
